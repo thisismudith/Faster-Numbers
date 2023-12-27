@@ -3,9 +3,9 @@
 Have you ever thought of a different way to write numbers? Base Number Systems are fun and intriguing, however, imagine a number system that's based upon positioning as per distinct permutations. Sounds confusing? Let's look at an example:
 
 ## **Base Number System:** (Original)
-**Base: 10** *(Conventional)*\n
-Number: 240 = (2 × 10²) + (4 × 10¹) + (0 × 10⁰) = 240\n
-**Base: 26**\n
+**Base: 10** *(Conventional)*<br>
+Number: 240 = (2 × 10²) + (4 × 10¹) + (0 × 10⁰) = 240<br>
+**Base: 26**<br>
 Number: 240 = (2 × 26²) + (4 × 26¹) + (0 × 26⁰) = 1456
 
 ## **Permutation Position Number System:** (New -- Used in the code)
