@@ -69,7 +69,7 @@ cd Faster-Numbers
 ##### Faster Numbers in Action:
 **Code:**
 ```py
-sys.set_int_max_str_digits(9999)  # Use this to allow bigger digits
+# sys.set_int_max_str_digits(9999)  # Use this to allow bigger digits
 REF = ascii_lowercase  # The reference string
 START = 1
 char = "thisismudith"
