@@ -36,14 +36,14 @@ Continuing this pattern, we can observe:
 This number system is memory efficient as the number of bits required to store the same data decreases significantly. Here are a few statistics:
 Number: `int('9' * 10000)` *# The number 9 repeated 10000 times* (10,000 digits)
 
-##### **Faster Numbers:**
+#### **Faster Numbers:**
 REF: ```abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ ``` *(REF or reference is the string characters used to permute the numbers)*
 Memory (before): `10 kb`
 Memory (after): `5 kb`
 Memory Efficiency: `50%`
 Converting Time (execution): `15.625 ms`
 
-##### **Factors Affecting Memory Efficiency:**
+#### **Factors Affecting Memory Efficiency:**
 -  ∝ Total Digits *(i.e. as total number of digits will increase, memory efficiency will increase)*
 -  ∝ REF string length *(i.e as REF string length will increase, memory efficiency will increase)*
 
